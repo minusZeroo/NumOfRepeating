@@ -15,7 +15,7 @@ import java.util.TreeSet;
 
 /**
  *
- * @author caniksea
+ * @author minuszero
  */
 public class NumOfRepeating {
 
@@ -32,7 +32,7 @@ public class NumOfRepeating {
 
         String words[] = enteredSentence.split(" ");  // ["I", "am", "hungry"]
 
-        Map<String, Integer> hold = new HashMap<>();
+        Map<String, Integer> hold = new HashMap<>(); //map declaration
 
         for (String word : words) {
             char as[] = word.toCharArray();
